@@ -1,6 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "[![Actions Status](https://github.com/pavel-likharev/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/pavel-likharev/frontend-project-lvl2/actions)",
   "main": "index.js",
   "scripts": {
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/pavel-likharev/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^9.0.0"
+    "commander": "^9.0.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "eslint": "^8.11.0",

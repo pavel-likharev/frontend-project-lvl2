@@ -15,7 +15,7 @@
 Установка проекта
 
 ```
-git clone https://github.com/pavel-likharev/frontend-project-lvl1.git
-cd frontend-project-lvl1
+git clone https://github.com/pavel-likharev/frontend-project-lvl2.git
+cd frontend-project-lvl2
 make install
 ```

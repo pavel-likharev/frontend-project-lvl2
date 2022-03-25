@@ -22,4 +22,4 @@ make install
 
 Демонстрация работы
 
-<script id="asciicast-SPGtFqQg5gA7drhqb6R2fOmCL" src="https://asciinema.org/a/SPGtFqQg5gA7drhqb6R2fOmCL.js" async></script>
+<a href="https://asciinema.org/a/SPGtFqQg5gA7drhqb6R2fOmCL" target="_blank"><img src="https://asciinema.org/a/SPGtFqQg5gA7drhqb6R2fOmCL.svg" /></a>

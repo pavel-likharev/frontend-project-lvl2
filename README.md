@@ -19,3 +19,7 @@ git clone https://github.com/pavel-likharev/frontend-project-lvl2.git
 cd frontend-project-lvl2
 make install
 ```
+
+Демонстрация работы
+
+<script id="asciicast-SPGtFqQg5gA7drhqb6R2fOmCL" src="https://asciinema.org/a/SPGtFqQg5gA7drhqb6R2fOmCL.js" async></script>

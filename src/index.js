@@ -24,22 +24,22 @@ const gendiff = (file1, file2) => {
     if (Object.hasOwn(data1, key) && Object.hasOwn(data2, key)) {
       if (data1[key] === data2[key]) {
         const newAcc = `${acc}
-    ${key} = ${data1[key]}`;
+    ${key}: ${data1[key]}`;
         return newAcc;
       }
       const newAcc = `${acc}
-  ${STATES.deleted} ${key} = ${data1[key]}
-  ${STATES.added} ${key} = ${data2[key]}`;
+  ${STATES.deleted} ${key}: ${data1[key]}
+  ${STATES.added} ${key}: ${data2[key]}`;
 
       return newAcc;
     }
     if (Object.hasOwn(data1, key)) {
       const newAcc = `${acc}
-  ${STATES.deleted} ${key} = ${data1[key]}`;
+  ${STATES.deleted} ${key}: ${data1[key]}`;
       return newAcc;
     }
     const newAcc = `${acc}
-  ${STATES.added} ${key} = ${data2[key]}`;
+  ${STATES.added} ${key}: ${data2[key]}`;
     return newAcc;
   }, '{');
 
